@@ -1,17 +1,69 @@
-* {
+*{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-.q{
-    display: flex;
+ul{
+    list-style: none;
 }
 
-/*.first{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: content-box;
+.adventures{
+    padding: 83px 0;
+}
+
+.box{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+.adventures_item:not(:last-child){
+    margin-right: 30px;
+}
+
+.adventures_item{
+    width: 270px;
+}
+
+.adventures_heading{
+    color: black;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+margin-bottom: 10px;
+}
+
+.adventures_text{
+   color: #757575; 
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+.hedhedce{
+    color: #212121;
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+margin: 0 auto 40px;
+}
+
+.ga:not(:last-child){
+    margin-right: 30px;
 }
